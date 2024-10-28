@@ -1,0 +1,45 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  margin: 0; 
+  background-color: #adcfd1; 
+}
+
+.counter-body {
+  display: flex;
+  flex-direction: column; /* Arrange buttons in a column */
+  align-items: center; /* Center items horizontally */
+  padding: 80px; /* Add some padding */
+  background-color: rgb(20, 165, 170); /* Background color for the counter */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Shadow */
+}
+
+h2{
+  color:blue;
+  margin: bottom 20px;
+  text-align: center;
+}
+.pnumber{
+   ;
+  text-align: center;
+  margin-top: 5px;
+}
+.btnincrease{
+  background-color: rgb(141, 141, 189);
+  text-align: center;
+  margin-right: 5px;
+}
+.btndecrease{
+  background-color:rgb(141, 141, 189);
+  text-align: center;
+  margin: 5px;
+}
+.btnreset{
+  background-color:rgb(141, 141, 189);
+  text-align: center;
+  margin: 5px;
+}
